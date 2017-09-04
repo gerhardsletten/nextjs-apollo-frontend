@@ -1,0 +1,6 @@
+{
+  "rules": [
+    { "pathname": "/api", "dest": "employee-api-uulyvwtfrl.now.sh" },
+    { "dest": "gs-employee-frontend.now.sh" }
+  ]
+}

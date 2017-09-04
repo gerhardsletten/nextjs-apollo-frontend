@@ -1,0 +1,40 @@
+{
+  "name": "emplyee-frontend",
+  "version": "1.0.0",
+  "dependencies": {
+    "graphql": "^0.9.3",
+    "isomorphic-fetch": "^2.2.1",
+    "material-ui": "^0.18.0",
+    "next": "latest",
+    "object.omit": "^3.0.0",
+    "prop-types": "^15.5.8",
+    "react": "^15.5.4",
+    "react-apollo": "^1.1.3",
+    "react-dom": "^15.5.4",
+    "react-tap-event-plugin": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-config-standard-react": "^5.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-react": "^6.10.3",
+    "eslint-plugin-standard": "^3.0.1",
+    "jest-expo": "~20.0.0",
+    "react-native-scripts": "1.2.1",
+    "react-test-renderer": "16.0.0-alpha.12",
+    "standard": "^10.0.2"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "globals": [
+      "__DEVELOPMENT__"
+    ]
+  }
+}

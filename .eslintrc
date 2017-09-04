@@ -1,0 +1,21 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["standard", "standard-react"],
+  "env": {
+    "browser": true
+  },
+  "rules": {
+  },
+  "plugins": [
+    "react", "standard"
+  ],
+  "settings": {
+    "import/parser": "babel-eslint",
+    "import/resolve": {
+      moduleDirectory: ["node_modules", "src"]
+    }
+  },
+  "globals": {
+    "__DEVELOPMENT__": true
+  }
+}
